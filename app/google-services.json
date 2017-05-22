@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "791465249597",
+    "firebase_url": "https://vaportalk-6725e.firebaseio.com",
+    "project_id": "vaportalk-6725e",
+    "storage_bucket": "vaportalk-6725e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:791465249597:android:5de483f7722cace4",
+        "android_client_info": {
+          "package_name": "com.project.eelhea.vaportalk_android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "791465249597-ljnkppiaua653tp74dlj6k8d78tprmh1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcPRTt2WvvlI2Nz-_9WkJnQ-5GCP6ub_M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

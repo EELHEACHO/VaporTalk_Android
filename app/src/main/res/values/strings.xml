@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">VaporTalk</string>
+
+    <string name="minimum_password">비밀번호를 6자이상 입력해주세요.</string>
+    <string name="auth_failed">이메일 혹은 비밀번호를 확인해주세요.</string>
+
+    <string name="search_hint">이름을 입력해주세요.</string>
+</resources>

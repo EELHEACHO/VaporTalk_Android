@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".view.MainActivity">
+
+    <!--<include
+        android:id="@+id/toolbar_tab_main"
+        layout="@layout/toolbar_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />-->
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:gravity="top|start"
+        android:minHeight="?attr/actionBarSize"
+        android:id="@+id/toolbar_tab_main">
+
+        <TextView
+            android:id="@+id/tv_toolbar_title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="VaporTalk"
+            android:textColor="@android:color/white"
+            android:textColorHighlight="@android:color/white"
+            android:textColorLink="@android:color/white"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/bottom_tablayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="@color/colorPrimary"
+            app:tabIndicatorColor="@android:color/white">
+
+            <android.support.design.widget.TabItem
+                android:id="@+id/friendlist_tab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:icon="@drawable/ic_people" />
+
+            <android.support.design.widget.TabItem
+                android:id="@+id/log_tab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Log" />
+
+            <android.support.design.widget.TabItem
+                android:id="@+id/event_tab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Event" />
+
+            <android.support.design.widget.TabItem
+                android:id="@+id/setting_tab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Setting" />
+        </android.support.design.widget.TabLayout>
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/main_viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"></android.support.v4.view.ViewPager>
+
+    </LinearLayout>
+
+
+
+    <!--<Button android:id="@+id/logout_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Logout" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />-->
+
+
+</LinearLayout>
